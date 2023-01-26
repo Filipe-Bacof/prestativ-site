@@ -71,7 +71,7 @@ header nav ul *:hover {
     width: 100vw;
 }
 
-#quem-somos {
+#about-us {
     background-color: #f16522;
     color: #ffffff;
     -webkit-box-shadow: 0rem -5rem 0rem 5rem #f16522;
@@ -85,7 +85,7 @@ header nav ul *:hover {
     padding-bottom: 2rem;
 }
 
-#quem-somos-container tr td {
+#about-us-container tr td {
     padding: 1.5rem 3.5rem 1.5rem 3.5rem;
     font-size: 1.25rem;
     text-shadow: 1px 2px #0f0f0f;
@@ -100,4 +100,28 @@ header nav ul *:hover {
     text-align: center;
     margin: auto;
     margin-bottom: 2rem;
+}
+
+#what-we-do h1 {
+    text-shadow: none;
+}
+
+#what-we-do-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#what-we-do-container ul {
+    margin: 0 8rem 0 5rem;
+    list-style: none;
+}
+
+#what-we-do-container ul * {
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+#what-we-do-container img {
+    max-width: 30vw;
+    margin-right: 5rem;
 }
