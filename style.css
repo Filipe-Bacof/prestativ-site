@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+header img {
+    height: 4rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul * {
+    align-items: center;
+    list-style: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul *:hover {
+    color: #f16522;
+}
