@@ -140,6 +140,10 @@ section {
   text-shadow: 1px 2px #0f0f0f;
 }
 
+#about-us-container-list {
+  display: none;
+}
+
 #box-border {
   border: 1px solid #ffaa77;
   border-radius: 8px;
@@ -194,6 +198,10 @@ section {
   transition: all ease 0.3s;
 }
 
+#techs-list {
+  display: none;
+}
+
 #stacks p {
   margin: 2rem 5rem 0 5rem;
   text-shadow: 1px 1px #d8d8d8;
@@ -202,7 +210,7 @@ section {
 #button-container {
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  margin: auto;
 }
 
 #benefits {
@@ -277,6 +285,115 @@ section {
 }
 
 iframe {
+    margin-top: 2rem;
   width: 80%;
   height: 20rem;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 750px) {
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #banner1 {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  #about-us-container {
+    display: none;
+  }
+
+  #about-us-container-list {
+    display: block;
+  }
+
+  #about-us-container-list li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #about-us * {
+    text-align: start;
+    margin: 0 1rem 0 1rem;
+    list-style: none;
+  }
+
+  li + strong {
+    margin: 0;
+    text-align: justify;
+    /* espaçamento das tags semanticas STRONG */
+  }
+
+  #button-container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #button-container * {
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+  }
+
+  #box-border {
+    margin-bottom: 1rem;
+  }
+
+  #what-we-do-container {
+    text-align: start;
+  }
+
+  #what-we-do-container img {
+    display: none;
+  }
+
+  #techs-table {
+    display: none;
+  }
+
+  #techs-list {
+    display: block;
+    text-align: start;
+    margin-left: 6rem;
+    list-style: none;
+  }
+
+  #techs-list * {
+    padding-bottom: 0.5rem;
+  }
+
+  #stacks p {
+    text-align: start;
+  }
+
+  #benefits ul {
+    margin: 0 2rem 0 2rem;
+  }
+
+  #contact-container {
+    margin: 0 4rem 0 4rem;
+    flex-direction: column;
+  }
+
+  #contact-email input {
+    width: 80vw;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #888888;
+    border-radius: 8px;
+  }
+
 }

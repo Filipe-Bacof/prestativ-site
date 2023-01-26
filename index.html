@@ -76,12 +76,42 @@
           </td>
         </tr>
       </table>
+
+      <ul class="about-us-container-list">
+        <li>
+          Somos um time de
+          <strong>profissionais diferenciados,</strong> fortemente capacitados,
+          que segue rigorosos padrões de desenvolvimento a fim de satisfazer as
+          exigências e necessidades dos nossos clientes.
+        </li>
+        <li>
+          Fazemos parte de uma empresa de
+          <strong>consultoria SAP,</strong> preparada para atender desde as suas
+          menores e mais simples demandas, até as maiores e mais complexas. E
+          aqui, como de costume, precisamos ser honestos: estas últimas sãos as
+          que mais gostamos.
+        </li>
+        <li>
+          Levamos a sua bandeira para qualquer canto do mundo. Por isso, nos
+          estruturamos para, globalmente, sermos parte da solução do seu
+          cliente, construindo assim <strong>parcerias sólidas e duradouras.</strong>
+        </li>
+        <li>
+          Atendemos nossos clientes e parceiros com comprometimento e oferecendo
+          <strong
+            >segurança, confiabilidade, disponibilidade e custos
+            atrativos.</strong
+          >
+        </li>
+      </ul>
       <div id="box-border">
         <p>Está com aquela demanda impossível de resolver?</p>
         <p>Está com o prazo curto ou com a sua equipe reduzida?</p>
         <p>Muito prazer, somos a PRESTATIV!</p>
       </div>
-      <button class="btn-white">Fale Conosco</button>
+      <div id="button-container">
+        <button class="btn-white">Fale Conosco</button>
+      </div>
     </section>
     <section id="what-we-do">
       <h1>O que fazemos?</h1>
@@ -93,14 +123,14 @@
             de
             <strong
               >fábrica de software, nearshore, offshore e consultoria
-              online</strong
-            >.
+              online.</strong
+            >
           </li>
           <li>
             Com a experiência adquirida no atendimento aos mais diversos
-            <strong>clientes SAP</strong>, nosso time consegue agilizar o
+            <strong>clientes SAP,</strong> nosso time consegue agilizar o
             atendimento da demanda a partir de uma explicação resumida,
-            <strong>vulgo papel de pão</strong>, não sendo necessário consumir
+            <strong>vulgo papel de pão,</strong> não sendo necessário consumir
             horas de esforço do time funcional do cliente para explanações mais
             complexas.
           </li>
@@ -110,7 +140,7 @@
     </section>
     <section id="stacks">
       <h1>Tecnologias atendidas:</h1>
-      <table>
+      <table id="techs-table">
         <tr>
           <td>ABAP - ABAP 4/HANA</td>
           <td>ABAP - HCM</td>
@@ -140,6 +170,28 @@
           <td>SAP BRIM</td>
         </tr>
       </table>
+      <ul id="techs-list">
+        <li>ABAP - ABAP 4/HANA</li>
+        <li>ABAP - HCM</li>
+        <li>FIORI - UI5</li>
+        <li>WEBDYNPRO</li>
+        <li>BOPF</li>
+        <li>CORE DATA SERVICES</li>
+        <li>SAP BTP</li>
+        <li>WORKFLOW</li>
+        <li>HYBRIS COMMERCE</li>
+        <li>C4C/SALES CLOUD</li>
+        <li>PI</li>
+        <li>PO</li>
+        <li>CPI</li>
+        <li>GRC NF-E, CT-E MDF-E</li>
+        <li>BRF+</li>
+        <li>FI</li>
+        <li>MM</li>
+        <li>SD</li>
+        <li>HCM</li>
+        <li>SAP BRIM</li>
+      </ul>
       <p>
         Praticamos a técnica de <strong>Peer Review</strong> após a execução do
         desenvolvimento, já que identificamos que são essas as principais fases
@@ -201,9 +253,17 @@
           <p>Porto Alegre - RS</p>
           <p>CEP: 90810-080</p>
           <div id="social-medias">
-            <a href="https://www.linkedin.com/company/prestativ/mycompany/" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://www.facebook.com/prestativsap/" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/prestativ_sap/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/company/prestativ/mycompany/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="https://www.facebook.com/prestativsap/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/prestativ_sap/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
           </div>
         </div>
         <form action="" id="contact-email">
@@ -212,7 +272,7 @@
           <label for="">E-mail (obrigatório)</label>
           <input type="email" />
           <label for="">Mensagem</label>
-          <input type="text" />
+          <input id="message-input" type="text" />
           <div id="button-container form-button">
             <button class="btn-orange">Enviar</button>
           </div>
