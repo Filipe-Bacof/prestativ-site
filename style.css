@@ -135,9 +135,13 @@ section {
 }
 
 #about-us-container tr td {
-  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  max-width: 8rem;
+  width: 25vh;
+  margin: auto 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   font-size: 1.25rem;
   text-shadow: 1px 2px #0f0f0f;
+  text-align: justify;
 }
 
 #about-us-container-list {
@@ -149,7 +153,6 @@ section {
   border-radius: 8px;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   max-width: 35rem;
-  margin-bottom: 1.5rem;
   text-align: center;
   margin: auto;
   margin-bottom: 2rem;
@@ -182,9 +185,8 @@ section {
 }
 
 #stacks table tr td {
-  padding: 1.5rem;
-  gap: 0.25rem;
-  width: 18vw;
+  padding: 1.2rem;
+  width: 15vw;
   color: #000000;
   border: 1px solid #000000;
   border-radius: 8px;
@@ -285,14 +287,14 @@ section {
 }
 
 iframe {
-    margin-top: 2rem;
+  margin-top: 2rem;
   width: 80%;
   height: 20rem;
 }
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 750px) {
+@media (max-width: 1070px) {
   body {
     overflow-x: hidden;
     width: 100vw;
@@ -395,5 +397,4 @@ iframe {
     border: 1px solid #888888;
     border-radius: 8px;
   }
-
 }
