@@ -110,7 +110,8 @@ header nav ul *:hover {
 }
 
 #what-we-do h1,
-#stacks h1 {
+#stacks h1,
+#contact-us h1 {
     text-shadow: none;
 }
 
@@ -202,4 +203,34 @@ header nav ul *:hover {
     padding: 2.5rem 0 2.5rem 0;
     list-style: none;
     font-size: 1.25rem;
+}
+
+#image-container {
+    width: 100%;
+}
+
+#image-container img {
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: block;
+    width: 40vw;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+#contact-email {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-email input {
+    width: 40vw;
+    height: 3rem;
+    padding-left: 0.2rem;
 }

@@ -22,10 +22,10 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">O que Fazemos</a></li>
-                    <li><a href="#">Benefícios Prestativ</a></li>
-                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#about-us">Quem Somos</a></li>
+                    <li><a href="#what-we-do">O que Fazemos</a></li>
+                    <li><a href="#benefits">Benefícios Prestativ</a></li>
+                    <li><a href="#contact-us">Fale Conosco</a></li>
                 </ul>
             </nav>
         </header>
@@ -116,24 +116,28 @@
                 <button>Fale Conosco</button>
             </div>
         </section>
-        <section>
-            <img src="./assets/logo-prestativ.svg" alt="Logo Prestativ" />
-            <div>
-                <h1>Fale Conosco</h1>
-                <p>Fone: (51) 3407-0977</p>
-                <p>Av. Diário de Notícias, 200 - Conj 901/914</p>
-                <p>Porto Alegre - RS</p>
-                <p>CEP: 90810-080</p>
+        <section id="contact-us">
+            <div id="image-container">
+                <img src="./assets/logo-prestativ.svg" alt="Logo Prestativ" />
             </div>
-            <form action="">
-                <label for="">Nome (obrigatório)</label>
-                <input type="text" />
-                <label for="">E-mail (obrigatório)</label>
-                <input type="email" />
-                <label for="">Mensagem</label>
-                <input type="text" />
-                <button>Enviar</button>
-            </form>
+            <h1>Fale Conosco</h1>
+            <div id="contact-container">
+                <div id="contact-info">
+                    <p>Fone: (51) 3407-0977</p>
+                    <p>Av. Diário de Notícias, 200 - Conj 901/914</p>
+                    <p>Porto Alegre - RS</p>
+                    <p>CEP: 90810-080</p>
+                </div>
+                <form action="" id="contact-email">
+                    <label for="">Nome (obrigatório)</label>
+                    <input type="text" />
+                    <label for="">E-mail (obrigatório)</label>
+                    <input type="email" />
+                    <label for="">Mensagem</label>
+                    <input type="text" />
+                    <button>Enviar</button>
+                </form>
+            </div>
         </section>
         <footer>
             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Av%20Diario%20de%20Noticias%2C%20200&#038;t=m&#038;z=14&#038;output=embed&#038;iwloc=near" title="Av Diario de Noticias, 200" aria-label="Av Diario de Noticias, 200"></iframe>
