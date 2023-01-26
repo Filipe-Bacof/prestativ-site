@@ -11,6 +11,7 @@
         <meta name="twitter:label1" content="Tempo estimado de leitura" />
         <meta name="twitter:data1" content="4 minutos" />
         <link rel="stylesheet" href="./style.css" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
         <script defer src="script.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
         <title>Prestativ</title>
@@ -28,18 +29,20 @@
                 </ul>
             </nav>
         </header>
-        <img src="./assets/banner1.png" alt="Banner Pessoas Trabalhando" />
-        <section>
+        <img id="banner1" src="./assets/banner1.png" alt="Banner Pessoas Trabalhando" />
+        <section id="quem-somos">
             <h1>Quem somos?</h1>
-            <div>
-                <p>Somos um time de <strong>profissionais diferenciados</strong>, fortemente capacitados, que segue rigorosos padrões de desenvolvimento a fim de satisfazer as exigências e necessidades dos nossos clientes.</p>
-                <p>Fazemos parte de uma empresa de <strong>consultoria SAP</strong>, preparada para atender desde as suas menores e mais simples demandas, até as maiores e mais complexas. E aqui, como de costume, precisamos ser honestos: estas últimas sãos as que mais gostamos.</p>
-            </div>
-            <div>
-                <p>Levamos a sua bandeira para qualquer canto do mundo. Por isso, nos estruturamos para, globalmente, sermos parte da solução do seu cliente, construindo assim <strong>parcerias sólidas e duradouras</strong>.</p>
-                <p>Atendemos nossos clientes e parceiros com comprometimento e oferecendo <strong>segurança, confiabilidade, disponibilidade e custos atrativos</strong>.</p>
-            </div>
-            <div>
+            <table id="quem-somos-container">
+                <tr>
+                    <td>Somos um time de <strong>profissionais diferenciados,</strong> fortemente capacitados, que segue rigorosos padrões de desenvolvimento a fim de satisfazer as exigências e necessidades dos nossos clientes.</td>
+                    <td>Fazemos parte de uma empresa de <strong>consultoria SAP,</strong> preparada para atender desde as suas menores e mais simples demandas, até as maiores e mais complexas. E aqui, como de costume, precisamos ser honestos: estas últimas sãos as que mais gostamos.</td>
+                </tr>
+                <tr>
+                    <td>Levamos a sua bandeira para qualquer canto do mundo. Por isso, nos estruturamos para, globalmente, sermos parte da solução do seu cliente, construindo assim <strong>parcerias sólidas e duradouras.</strong></td>
+                    <td>Atendemos nossos clientes e parceiros com comprometimento e oferecendo <strong>segurança, confiabilidade, disponibilidade e custos atrativos.</strong></td>
+                </tr>
+            </table>
+            <div id="box-border">
                 <p>Está com aquela demanda impossível de resolver?</p>
                 <p>Está com o prazo curto ou com a sua equipe reduzida?</p>
                 <p>Muito prazer, somos a PRESTATIV!</p>
