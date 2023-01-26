@@ -167,7 +167,7 @@ header nav ul *:hover {
     padding: 2rem;
 }
 
-#button-container button {
+#button-container .button-white {
     margin: 0 auto;
     justify-content: center;
     width: 8rem;
@@ -183,4 +183,23 @@ header nav ul *:hover {
     height: 2.75rem;
     background-color: #c9460a;
     transition: all ease 0.3s;
+}
+
+#benefits {
+    background-color: #f16522;
+}
+
+#benefits h1 {
+    text-shadow: none;
+    color: #ffffff;
+    padding-top: 2.5rem;
+    margin: 2rem 5rem 0 5rem;
+    text-shadow: 3px 3px #0f0f0f;
+}
+
+#benefits ul {
+    margin-left: 5rem;
+    padding: 2.5rem 0 2.5rem 0;
+    list-style: none;
+    font-size: 1.25rem;
 }
