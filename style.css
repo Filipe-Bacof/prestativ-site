@@ -169,7 +169,7 @@ section {
 
 #what-we-do-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 #what-we-do-container ul {
@@ -185,8 +185,9 @@ section {
 
 #what-we-do-container img {
     padding-top: 2.5rem;
-    max-width: 30vw;
-    max-height: 30vw;
+    max-width: 40vw;
+    max-height: 40vh;
+    height: auto;
     margin-right: 5rem;
 }
 
@@ -236,7 +237,7 @@ section {
 #benefits ul {
     margin-left: 5rem;
     padding: 2.5rem 0 2.5rem 2rem;
-    list-style: none;
+    list-style: square;
     font-size: 1.25rem;
 }
 
@@ -381,10 +382,16 @@ iframe {
 
     #what-we-do-container {
         text-align: start;
+        flex-direction: column;
     }
 
     #what-we-do-container img {
-        display: none;
+        width: 80vh;
+        margin: auto;
+        padding-top: 2.5rem;
+        max-width: 80vw;
+        height: auto;
+        max-height: 80vh;
     }
 
     #techs-table {
