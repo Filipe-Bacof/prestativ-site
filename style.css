@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -141,7 +141,6 @@ section {
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding-bottom: 2rem;
 }
 
 #about-us-container tr td {
@@ -227,7 +226,7 @@ section {
     text-align: center;
     margin: auto;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 #benefits {
@@ -336,12 +335,16 @@ iframe {
     #about-us-container-list {
         display: block;
         margin: auto;
+        justify-content: center;
         text-align: justify;
     }
 
     #about-us-container-list li {
         margin-bottom: 1rem;
         padding-bottom: 1rem;
+
+        justify-content: center;
+        text-align: justify;
     }
 
     #about-us * {
