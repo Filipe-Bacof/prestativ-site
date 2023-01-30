@@ -2,25 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Prompt", Sans-serif;
 }
 
 body {
     text-align: center;
     margin-bottom: 5rem;
     overflow-x: hidden;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 300;
     padding: 5rem 2.5rem 0 0;
     margin: 0 2.5rem 0 5rem;
     cursor: default;
     text-shadow: none;
+    text-align: start;
 }
 
 .h1-bg-orange {
-    text-shadow: 3px 3px #0f0f0f;
+    text-shadow: 2px 2px #0f0f0f;
     color: #ffffff;
     padding-bottom: 1rem;
 }
