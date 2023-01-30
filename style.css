@@ -8,6 +8,7 @@
 body {
     text-align: center;
     margin-bottom: 5rem;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -46,8 +47,7 @@ button {
 
 button:hover {
     transition: all ease 0.3s;
-    width: 8.25rem;
-    height: 2.75rem;
+    font-size: 0.9rem;
 }
 
 .btn-white {
@@ -62,11 +62,11 @@ button:hover {
 
 .btn-white a {
     color: #f16522;
+    font-weight: 800;
 }
 
 .btn-white:hover {
     background-color: #e7e7e7;
-    color: #f16522;
 }
 
 .btn-orange {
@@ -129,7 +129,7 @@ header nav ul *:hover {
 }
 
 section {
-    width: 100%;
+    width: 100vw;
 }
 
 #about-us {
@@ -147,7 +147,7 @@ section {
     max-width: 8rem;
     width: 25vh;
     margin: auto 2rem;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 4rem 2rem 4rem;
     font-size: 1.25rem;
     text-shadow: 1px 2px #0f0f0f;
     text-align: justify;
@@ -185,8 +185,8 @@ section {
 
 #what-we-do-container img {
     padding-top: 2.5rem;
-    max-width: 40vw;
-    max-height: 40vh;
+    max-width: 35vw;
+    max-height: 35vh;
     height: auto;
     margin-right: 5rem;
 }
@@ -198,7 +198,7 @@ section {
 
 #stacks table tr td {
     padding: 1.2rem;
-    width: 15vw;
+    width: 18vw;
     color: #000000;
     border: 1px solid #000000;
     border-radius: 8px;
@@ -236,7 +236,7 @@ section {
 
 #benefits ul {
     margin-left: 5rem;
-    padding: 2.5rem 0 2.5rem 2rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
     list-style: square;
     font-size: 1.25rem;
 }
@@ -250,7 +250,7 @@ section {
 }
 
 #image-container {
-    width: 100%;
+    width: 100vw;
 }
 
 #image-container img {
@@ -319,6 +319,10 @@ iframe {
         display: none;
     }
 
+    header img {
+      height: 3.5rem;
+    }
+
     h1 {
         font-size: 2rem;
         margin: 0 2.5rem 1rem 5rem;
@@ -361,8 +365,6 @@ iframe {
     li + strong {
         margin: 0;
         text-align: justify;
-
-        /* espaçamento das tags semanticas STRONG */
     }
 
     #button-container {
@@ -372,12 +374,16 @@ iframe {
     }
 
     #button-container * {
-        margin: 1rem auto 1rem auto;
+        margin: auto;
         text-align: center;
     }
 
     #box-border {
         margin-bottom: 1rem;
+    }
+
+    #box-border * {
+      font-size: 1rem;
     }
 
     #what-we-do-container {
@@ -406,7 +412,7 @@ iframe {
 
     #techs-list * {
         width: 45%;
-        min-width: 270px;
+        min-width: 250px;
         padding: 0.5rem;
         margin: auto;
         margin-top: 0.5rem;
@@ -427,10 +433,15 @@ iframe {
         text-align: justify;
     }
 
+    #benefits {
+      width: 100vw;
+    }
+
     #benefits ul {
         margin: 0 2rem 0 2rem;
         list-style: square;
     }
+  
 
     #contact-container {
         margin: 0 4rem 0 4rem;
