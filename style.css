@@ -323,8 +323,8 @@ section {
 
 iframe {
   margin-top: 2rem;
-  width: 80%;
-  height: 20rem;
+  width: 75vw;
+  height: 25rem;
 }
 
 /* RESPONSIVIDADE */
@@ -374,7 +374,7 @@ iframe {
 
   #about-us * {
     text-align: start;
-    margin: 0 1rem 0 1rem;
+    margin: 0 2rem 0 2rem;
     list-style: none;
   }
 
