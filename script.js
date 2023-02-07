@@ -17,3 +17,5 @@ function scrollContact() {
         behavior: "smooth",
     })
 }
+
+// https://tableless.com.br/utilizando-navigator-language/
