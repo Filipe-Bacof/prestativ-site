@@ -7,9 +7,6 @@ document.getElementById("contact-email").addEventListener("submit", function () 
     this.querySelector("input[name=Body]").setAttribute("value", texto);
 });
 
-const language = window.navigator.userLanguage;
-console.log(language);
-
 const contato = document.getElementById("contact-us");
 const positionOfElement = contato.getBoundingClientRect();
 
@@ -20,5 +17,3 @@ function scrollContact() {
         behavior: "smooth",
     });
 }
-
-// https://tableless.com.br/utilizando-navigator-language/

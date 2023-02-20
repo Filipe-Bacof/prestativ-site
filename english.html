@@ -1,297 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Filipe Bacof" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Tempo estimado de leitura" />
-    <meta name="twitter:data1" content="4 minutos" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-    <script defer src="script.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Prestativ - SAP Factory</title>
-  </head>
-  <body>
-    <header>
-      <img src="./assets/logo-prestativ.svg" alt="Logo da Prestativ" />
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about-us">Who we are</a></li>
-          <li><a href="#what-we-do">What we do</a></li>
-          <li><a href="#benefits">Why choose us</a></li>
-          <li onclick="scrollContact()"><a>Contact us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <img
-      id="banner1"
-      src="./assets/banner1.png"
-      alt="Banner Pessoas Trabalhando"
-    />
-    <section id="about-us">
-      <h1 class="h1-bg-orange">Who we are?</h1>
-      <table id="about-us-container">
-        <tr>
-          <td>
-            We are a team of <strong>distinct professionals</strong>, strongly
-            capacitated, that follows rigorous development pattern in order to
-            satisfact the requirements and needs of our clients.
-          </td>
-          <td>
-            We take your flag for any corner in the world. That's why we
-            structured ourselves to, globaly, be part of the solution of your
-            client, and this way building
-            <strong>solid and lasting partnerships.</strong>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            We are part of a <strong>SAP consulting</strong> company, prepared
-            to attend from the smaller and simpler demands, to the biggest and
-            more complex. And we must be honest, the last, are the ones we must
-            like.
-          </td>
-          <td>
-            We attend our clients and partners with commitment, offering
-            <strong
-              >safety, reliability, availability and atractive costs</strong
-            >.
-          </td>
-        </tr>
-      </table>
-      <ul id="about-us-container-list">
-        <li>
-          We are a team of <strong>distinct professionals</strong>, strongly
-          capacitated, that follows rigorous development pattern in order to
-          satisfact the requirements and needs of our clients.
-        </li>
-        <li>
-          We are part of a <strong>SAP consulting</strong> company, prepared to
-          attend from the smaller and simpler demands, to the biggest and more
-          complex. And we must be honest, the last, are the ones we must like.
-        </li>
-        <li>
-          We take your flag for any corner in the world. That's why we
-          structured ourselves to, globaly, be part of the solution of your
-          client, and this way building
-          <strong>solid and lasting partnerships.</strong>
-        </li>
-        <li>
-          We attend our clients and partners with commitment, offering
-          <strong>safety, reliability, availability and atractive costs</strong>
-        </li>
-      </ul>
-      <div id="box-border">
-        <p>Are you with that demand impossible to solv?</p>
-        <p>Are you in a tight deadline or reduced team?</p>
-        <p>Nice to meet you, we are PRESTATIV!</p>
-      </div>
-      <div id="button-container">
-        <button onclick="scrollContact()" class="btn-white">
-          <a>Contact us</a>
-        </button>
-      </div>
-    </section>
-    <section id="what-we-do">
-      <h1>What we do?</h1>
-      <div id="what-we-do-container">
-        <img src="./assets/cpu.png" alt="Ilustração CPU" />
-        <ul>
-          <li>
-            With tested methods and improved by us and the market, or using
-            client methodology, we attend in the model of
-            <strong
-              >software factory, nearshore, offshore and online
-              consulting.</strong
-            >
-          </li>
-          <li>
-            With the experience gained in serving the most diverse
-            <strong>SAP clients,</strong> our team manages to speed up the
-            response to the demand based on a brief explanation, it is not
-            necessary to consume hours of effort from the client's functional
-            team for more complex explanations.
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="stacks">
-      <h1>Technologies we attend:</h1>
-      <table id="techs-table">
-        <tr>
-          <td>ABAP - ABAP 4/HANA</td>
-          <td>ABAP - HCM</td>
-          <td>FIORI - UI5</td>
-          <td>WEBDYNPRO</td>
-          <td>BOPF</td>
-        </tr>
-        <tr>
-          <td>CORE DATA SERVICES</td>
-          <td>SAP BTP</td>
-          <td>WORKFLOW</td>
-          <td>HYBRIS COMMERCE</td>
-          <td>C4C/SALES CLOUD</td>
-        </tr>
-        <tr>
-          <td>PI</td>
-          <td>PO</td>
-          <td>CPI</td>
-          <td>GRC NF-E, CT-E MDF-E</td>
-          <td>BRF+</td>
-        </tr>
-        <tr>
-          <td>FI</td>
-          <td>MM</td>
-          <td>SD</td>
-          <td>HCM</td>
-          <td>SAP BRIM</td>
-        </tr>
-      </table>
-      <ul id="techs-list">
-        <li>ABAP - ABAP 4/HANA</li>
-        <li>ABAP - HCM</li>
-        <li>FIORI - UI5</li>
-        <li>WEBDYNPRO</li>
-        <li>BOPF</li>
-        <li>CORE DATA SERVICES</li>
-        <li>SAP BTP</li>
-        <li>WORKFLOW</li>
-        <li>HYBRIS COMMERCE</li>
-        <li>C4C/SALES CLOUD</li>
-        <li>PI</li>
-        <li>PO</li>
-        <li>CPI</li>
-        <li>GRC NF-E, CT-E MDF-E</li>
-        <li>BRF+</li>
-        <li>FI</li>
-        <li>MM</li>
-        <li>SD</li>
-        <li>HCM</li>
-        <li>SAP BRIM</li>
-      </ul>
-      <p>
-        We practice <strong>Peer Review</strong> technique after running the
-        development, since we identified that these are the main phases where
-        errors occur in this process.
-      </p>
-      <p>
-        Resource management is Prestativ's responsibility and our client is
-        continuously informed about the evolution of his developments by the
-        factory manager. In this way, if it is necessary to increase or decrease
-        the capacity of resources, the client does not worry about the
-        dimensioning of the team in the high and low peaks of activity.
-      </p>
-      <div id="button-container">
-        <button onclick="scrollContact()" class="btn-orange">
-          <a>Contact us</a>
-        </button>
-      </div>
-    </section>
-    <section id="benefits">
-      <h1 class="h1-bg-orange">Benefits of working with Prestativ</h1>
-      <ul>
-        <li>Pre-defined costs and deadlines;</li>
-        <li>Transformation of fixed cost into variable;</li>
-        <li>No cost of idle professionals;</li>
-        <li>On-demand service contracting;</li>
-        <li>
-          Cost savings in physical space, infrastructure, HR and management;
-        </li>
-        <li>Metric of effort performed and approved by the client;</li>
-        <li>
-          Matured metrics: in every budget, the client already knows how much he
-          will invest;
-        </li>
-        <li>
-          Tight control of development status, with weekly report to the client
-          (Status Report);
-        </li>
-        <li>
-          Flexibility in team sizing according to the client needs or the
-          urgency of the project;
-        </li>
-        <li>
-          Freeing up client staff time to focus on and support the business;
-        </li>
-        <li>Increased quality and productivity, with gains in scale.</li>
-      </ul>
-      <div id="button-container">
-        <button onclick="scrollContact()" class="btn-white">
-          <a>Contact us</a>
-        </button>
-      </div>
-    </section>
-    <section id="contact-us">
-      <div id="image-container">
-        <img src="./assets/logo-prestativ.svg" alt="Logo Prestativ" />
-      </div>
-      <div id="contact-container">
-        <div id="contact-info">
-          <h1>Contact us</h1>
-          <p>Phone: (51) 3407-0977</p>
-          <p>200, Diário de Notícias Avenue - Conj 901/914</p>
-          <p>Porto Alegre - RS</p>
-          <p>Postal Code: 90810-080</p>
-          <div id="social-medias">
-            <a
-              href="https://www.linkedin.com/company/prestativ/mycompany/"
-              target="_blank"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-            <a href="https://www.facebook.com/prestativsap/" target="_blank"
-              ><i class="bi bi-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com/prestativ_sap/" target="_blank"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
-          </div>
-        </div>
-        <form
-          id="contact-email"
-          method="get"
-          action="mailto:teste@mail.com"
-          target="_blank"
-        >
-          <label for="">Name (necessary)</label>
-          <input class="cells" type="text" name="nome" />
-          <label for="">E-mail (necessary)</label>
-          <input class="cells" type="text" name="email" />
-          <label for="">Subject</label>
-          <input name="Subject" />
-          <label for="">Message</label>
-          <input name="Body" />
-          <div id="button-container form-button">
-            <button type="submit" value="click" id="enviar" class="btn-orange">
-              Send
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <footer>
-      <iframe
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Brazil%20RS%20Porto%20Alegre%20Diario%20de%20Noticias%20200+(Prestativ%20SAP%20Factory)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        title="200, Diario de Noticias Avenue"
-        aria-label="200, Diario de Noticias Avenue"
-      ></iframe>
-    </footer>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Filipe Bacof" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Tempo estimado de leitura" />
+        <meta name="twitter:data1" content="4 minutos" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+        <script defer src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <title>Prestativ - SAP Factory</title>
+    </head>
+    <body>
+        <header>
+            <img src="./assets/logo-prestativ.svg" alt="Logo da Prestativ" />
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-us">Who we are</a></li>
+                    <li><a href="#what-we-do">What we do</a></li>
+                    <li><a href="#benefits">Why choose us</a></li>
+                    <li onclick="scrollContact()"><a>Contact us</a></li>
+                    <li>
+                        <a href="#" class="marked"><img src="./assets/flag-usa.svg" alt="Ver em Inglês" /></a>
+                    </li>
+                    <li>
+                        <a href="index.html"><img src="./assets/flag-brazil.svg" alt="See in Portuguese" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <img id="banner1" src="./assets/banner1.png" alt="Banner Pessoas Trabalhando" />
+        <section id="about-us">
+            <h1 class="h1-bg-orange">Who we are?</h1>
+            <table id="about-us-container">
+                <tr>
+                    <td>We are a team of <strong>distinct professionals</strong>, strongly capacitated, that follows rigorous development pattern in order to satisfact the requirements and needs of our clients.</td>
+                    <td>
+                        We take your flag for any corner in the world. That's why we structured ourselves to, globaly, be part of the solution of your client, and this way building
+                        <strong>solid and lasting partnerships.</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>We are part of a <strong>SAP consulting</strong> company, prepared to attend from the smaller and simpler demands, to the biggest and more complex. And we must be honest, the last, are the ones we must like.</td>
+                    <td>
+                        We attend our clients and partners with commitment, offering
+                        <strong>safety, reliability, availability and atractive costs</strong>.
+                    </td>
+                </tr>
+            </table>
+            <ul id="about-us-container-list">
+                <li>We are a team of <strong>distinct professionals</strong>, strongly capacitated, that follows rigorous development pattern in order to satisfact the requirements and needs of our clients.</li>
+                <li>We are part of a <strong>SAP consulting</strong> company, prepared to attend from the smaller and simpler demands, to the biggest and more complex. And we must be honest, the last, are the ones we must like.</li>
+                <li>
+                    We take your flag for any corner in the world. That's why we structured ourselves to, globaly, be part of the solution of your client, and this way building
+                    <strong>solid and lasting partnerships.</strong>
+                </li>
+                <li>
+                    We attend our clients and partners with commitment, offering
+                    <strong>safety, reliability, availability and atractive costs</strong>
+                </li>
+            </ul>
+            <div id="box-border">
+                <p>Are you with that demand impossible to solv?</p>
+                <p>Are you in a tight deadline or reduced team?</p>
+                <p>Nice to meet you, we are PRESTATIV!</p>
+            </div>
+            <div id="button-container">
+                <button onclick="scrollContact()" class="btn-white">
+                    <a>Contact us</a>
+                </button>
+            </div>
+        </section>
+        <section id="what-we-do">
+            <h1>What we do?</h1>
+            <div id="what-we-do-container">
+                <img src="./assets/cpu.png" alt="Ilustração CPU" />
+                <ul>
+                    <li>
+                        With tested methods and improved by us and the market, or using client methodology, we attend in the model of
+                        <strong>software factory, nearshore, offshore and online consulting.</strong>
+                    </li>
+                    <li>
+                        With the experience gained in serving the most diverse
+                        <strong>SAP clients,</strong> our team manages to speed up the response to the demand based on a brief explanation, it is not necessary to consume hours of effort from the client's functional team for more complex explanations.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="stacks">
+            <h1>Technologies we attend:</h1>
+            <table id="techs-table">
+                <tr>
+                    <td>ABAP - ABAP 4/HANA</td>
+                    <td>ABAP - HCM</td>
+                    <td>FIORI - UI5</td>
+                    <td>WEBDYNPRO</td>
+                    <td>BOPF</td>
+                </tr>
+                <tr>
+                    <td>CORE DATA SERVICES</td>
+                    <td>SAP BTP</td>
+                    <td>WORKFLOW</td>
+                    <td>HYBRIS COMMERCE</td>
+                    <td>C4C/SALES CLOUD</td>
+                </tr>
+                <tr>
+                    <td>PI</td>
+                    <td>PO</td>
+                    <td>CPI</td>
+                    <td>GRC NF-E, CT-E MDF-E</td>
+                    <td>BRF+</td>
+                </tr>
+                <tr>
+                    <td>FI</td>
+                    <td>MM</td>
+                    <td>SD</td>
+                    <td>HCM</td>
+                    <td>SAP BRIM</td>
+                </tr>
+            </table>
+            <ul id="techs-list">
+                <li>ABAP - ABAP 4/HANA</li>
+                <li>ABAP - HCM</li>
+                <li>FIORI - UI5</li>
+                <li>WEBDYNPRO</li>
+                <li>BOPF</li>
+                <li>CORE DATA SERVICES</li>
+                <li>SAP BTP</li>
+                <li>WORKFLOW</li>
+                <li>HYBRIS COMMERCE</li>
+                <li>C4C/SALES CLOUD</li>
+                <li>PI</li>
+                <li>PO</li>
+                <li>CPI</li>
+                <li>GRC NF-E, CT-E MDF-E</li>
+                <li>BRF+</li>
+                <li>FI</li>
+                <li>MM</li>
+                <li>SD</li>
+                <li>HCM</li>
+                <li>SAP BRIM</li>
+            </ul>
+            <p>We practice <strong>Peer Review</strong> technique after running the development, since we identified that these are the main phases where errors occur in this process.</p>
+            <p>Resource management is Prestativ's responsibility and our client is continuously informed about the evolution of his developments by the factory manager. In this way, if it is necessary to increase or decrease the capacity of resources, the client does not worry about the dimensioning of the team in the high and low peaks of activity.</p>
+            <div id="button-container">
+                <button onclick="scrollContact()" class="btn-orange">
+                    <a>Contact us</a>
+                </button>
+            </div>
+        </section>
+        <section id="benefits">
+            <h1 class="h1-bg-orange">Benefits of working with Prestativ</h1>
+            <ul>
+                <li>Pre-defined costs and deadlines;</li>
+                <li>Transformation of fixed cost into variable;</li>
+                <li>No cost of idle professionals;</li>
+                <li>On-demand service contracting;</li>
+                <li>Cost savings in physical space, infrastructure, HR and management;</li>
+                <li>Metric of effort performed and approved by the client;</li>
+                <li>Matured metrics: in every budget, the client already knows how much he will invest;</li>
+                <li>Tight control of development status, with weekly report to the client (Status Report);</li>
+                <li>Flexibility in team sizing according to the client needs or the urgency of the project;</li>
+                <li>Freeing up client staff time to focus on and support the business;</li>
+                <li>Increased quality and productivity, with gains in scale.</li>
+            </ul>
+            <div id="button-container">
+                <button onclick="scrollContact()" class="btn-white">
+                    <a>Contact us</a>
+                </button>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div id="image-container">
+                <img src="./assets/logo-prestativ.svg" alt="Logo Prestativ" />
+            </div>
+            <div id="contact-container">
+                <div id="contact-info">
+                    <h1>Contact us</h1>
+                    <p>Phone: (51) 3407-0977</p>
+                    <p>200, Diário de Notícias Avenue - Conj 901/914</p>
+                    <p>Porto Alegre - RS</p>
+                    <p>Postal Code: 90810-080</p>
+                    <div id="social-medias">
+                        <a href="https://www.linkedin.com/company/prestativ/mycompany/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/prestativsap/" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/prestativ_sap/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <form id="contact-email" method="get" action="mailto:teste@mail.com" target="_blank">
+                    <label for="">Name (necessary)</label>
+                    <input class="cells" type="text" name="nome" />
+                    <label for="">E-mail (necessary)</label>
+                    <input class="cells" type="text" name="email" />
+                    <label for="">Subject</label>
+                    <input name="Subject" />
+                    <label for="">Message</label>
+                    <input name="Body" />
+                    <div id="button-container form-button">
+                        <button type="submit" value="click" id="enviar" class="btn-orange">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Brazil%20RS%20Porto%20Alegre%20Diario%20de%20Noticias%20200+(Prestativ%20SAP%20Factory)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="200, Diario de Noticias Avenue" aria-label="200, Diario de Noticias Avenue"></iframe>
+        </footer>
+    </body>
 </html>
