@@ -1,447 +1,558 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", Sans-serif;
 }
 
 body {
-    text-align: center;
-    margin-bottom: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 700;
 }
 
 h1 {
-    font-size: 2.5rem;
-    padding: 5rem 2.5rem 0 0;
-    margin: 0 2.5rem 0 5rem;
-    cursor: default;
-    text-shadow: none;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 5rem 2.5rem 0 0;
+  margin: 0 2.5rem 0 7rem;
+  cursor: default;
+  text-shadow: none;
+  text-align: start;
 }
 
 .h1-bg-orange {
-    text-shadow: 3px 3px #0f0f0f;
-    color: #ffffff;
-    padding-bottom: 1rem;
+  text-shadow: 2px 2px #0f0f0f;
+  color: #ffffff;
+  padding-bottom: 1rem;
 }
 
 p {
-    font-size: 1.25rem;
-    cursor: default;
+  font-size: 1.25rem;
+  cursor: default;
 }
 
-nav ul li * {
-    cursor: default;
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+    transition: all ease 0.1s;
+    border-bottom: 3px solid #f16522;
 }
 
 button a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    margin: 1.5rem 0;
-    cursor: pointer;
-    width: 8rem;
-    height: 2.5rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  width: 8rem;
+  height: 2.5rem;
 }
 
 button:hover {
-    transition: all ease 0.3s;
-    width: 8.25rem;
-    height: 2.75rem;
+  transition: all ease 0.3s;
+  font-size: 0.9rem;
 }
 
 .btn-white {
-    margin: 0 auto;
-    justify-content: center;
-    width: 8rem;
-    height: 2.5rem;
-    border-radius: 8px;
-    background-color: #ffffff;
-    border: none;
+  margin: 0 auto;
+  justify-content: center;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: none;
 }
 
 .btn-white a {
-    color: #f16522;
+  color: #f16522;
+  font-weight: 800;
 }
 
 .btn-white:hover {
-    background-color: #e7e7e7;
-    color: #f16522;
+  background-color: #e7e7e7;
 }
 
 .btn-orange {
-    border-radius: 8px;
-    background-color: #f16522;
-    border: none;
-    margin: auto;
-    cursor: pointer;
+  border-radius: 8px;
+  background-color: #f16522;
+  border: none;
+  margin: auto;
+  cursor: pointer;
 }
 
 .btn-orange a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-orange:hover {
-    background-color: #c9460a;
+  background-color: #c9460a;
 }
 
 .form-button {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0.5rem 0 0.5rem 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: #ffffff;
-    margin: auto;
-    padding: 0.5rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.5rem 0 0.5rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 header img {
-    height: 4rem;
+  height: 4rem;
 }
 
 header nav ul {
-    display: flex;
-    gap: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 header nav ul * {
-    align-items: center;
-    list-style: none;
-    color: #000000;
-    text-decoration: none;
+  align-items: center;
+  list-style: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 header nav ul *:hover {
-    color: #f16522;
+  color: #f16522;
 }
 
 #banner1 {
-    width: 100vw;
+  width: 100vw;
+  margin-top: 4rem;
 }
 
 section {
-    width: 100%;
+  width: 100vw;
 }
 
 #about-us {
-    background-color: #f16522;
-    color: #ffffff;
-    -webkit-box-shadow: 0rem -5rem 0rem 5rem #f16522;
-    -moz-box-shadow: 0rem -5rem 0rem 5rem #f16522;
-    box-shadow: 0rem -5rem 0rem 5rem #f16522;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  background-color: #f16522;
+  color: #ffffff;
+  -webkit-box-shadow: 0rem -5rem 0rem 5rem #f16522;
+  -moz-box-shadow: 0rem -5rem 0rem 5rem #f16522;
+  box-shadow: 0rem -5rem 0rem 5rem #f16522;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 #about-us-container tr td {
-    max-width: 8rem;
-    width: 25vh;
-    margin: auto 2rem;
-    padding: 2rem 2rem 2rem 2rem;
-    font-size: 1.25rem;
-    text-shadow: 1px 2px #0f0f0f;
-    text-align: justify;
+  max-width: 50vw;
+  width: 40vw;
+  margin: auto 3rem;
+  padding: 0.5rem 7rem 0.5rem 7rem;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px #0f0f0f;
+  text-align: justify;
 }
 
 #about-us-container-list {
-    display: none;
+  display: none;
 }
 
 #box-border {
-    border: 1px solid #ffaa77;
-    border-radius: 8px;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    max-width: 35rem;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2rem;
+  width: 70vw;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px #0f0f0f;
+}
+
+#what-we-do {
+  color: #3d3d3d;
 }
 
 #what-we-do-container {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #what-we-do-container ul {
-    margin: 0 3rem 0 3rem;
-    list-style: none;
+  margin: 0 4rem 0 7rem;
+  list-style: none;
 }
 
 #what-we-do-container ul * {
-    padding-top: 1rem;
-    font-size: 1.25rem;
-    text-align: justify;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 #what-we-do-container img {
-    padding-top: 2.5rem;
-    max-width: 40vw;
-    max-height: 40vh;
-    height: auto;
-    margin-right: 5rem;
+  padding-top: 2.5rem;
+  max-width: 50vw;
+  max-height: 50vh;
+  height: auto;
+  margin-right: 5rem;
 }
 
 #stacks table {
-    padding-top: 2rem;
-    margin: auto;
+  margin: auto 5rem auto 5rem;
+  border-spacing: 2rem;
 }
 
 #stacks table tr td {
-    padding: 1.2rem;
-    width: 15vw;
-    color: #000000;
-    border: 1px solid #000000;
-    border-radius: 8px;
-    text-align: center;
-    cursor: default;
+  padding: 0.3rem 1.2rem;
+  width: 18vw;
+  height: 3.5rem;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  text-align: center;
+  cursor: default;
+  -webkit-box-shadow: 0px 0px 6px 3px #959595;
+  -moz-box-shadow: 0px 0px 6px 3px #959595;
+  box-shadow: 0px 0px 6px 3px #959595;
 }
 
 #stacks table tr td:hover {
-    background-color: #f16522;
-    color: #ffffff;
-    transition: all ease 0.3s;
+  background-color: #f16522;
+  color: #ffffff;
+  transition: all ease 0.3s;
 }
 
 #techs-list {
-    display: none;
+  display: none;
 }
 
 #stacks p {
-    margin: 2rem 5rem 0 5rem;
-    text-shadow: 1px 1px #d8d8d8;
-    text-align: justify;
+  margin: 2rem 7rem 0 7rem;
+  text-shadow: 1px 1px #d8d8d8;
+  text-align: justify;
+  font-size: 1.1rem;
 }
 
 #button-container {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 #benefits {
-    background-color: #f16522;
+  background-color: #f16522;
 }
 
 #benefits ul {
-    margin-left: 5rem;
-    padding: 2.5rem 0 2.5rem 2rem;
-    list-style: square;
-    font-size: 1.25rem;
+  margin-left: 5rem;
+  padding: 2.5rem 2rem 2.5rem 4rem;
+  list-style: square;
+  font-size: 1.25rem;
 }
 
 #benefits ul * {
-    text-align: start;
-    padding-bottom: 0.5rem;
-    color: #ffffff;
-    font-size: 1.25rem;
-    text-shadow: 1px 2px #0f0f0f;
+  text-align: start;
+  padding-bottom: 0.5rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  text-shadow: 1px 2px #0f0f0f;
 }
 
 #image-container {
-    width: 100%;
+  width: 100vw;
 }
 
 #image-container img {
-    margin: auto;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    display: block;
-    width: 40vw;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: block;
+  width: 30vw;
 }
 
 #contact-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1.5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5rem 10rem;
 }
 
 #contact-info {
-    text-align: start;
-    padding-top: 1.5rem;
+  text-align: start;
+  padding-top: 1.5rem;
+}
+
+#contact-info h1 {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  text-align: start;
 }
 
 #contact-info * {
-    padding-bottom: 0.5rem;
-    color: #1d1d1d;
+  padding-bottom: 0.5rem;
+  color: #1d1d1d;
 }
 
 #contact-email {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 
 #contact-email input {
-    width: 40vw;
-    height: 3rem;
-    padding-left: 1rem;
-    margin-bottom: 0.5rem;
-    border: 1px solid #888888;
-    border-radius: 8px;
+  width: 40vw;
+  height: 3rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #888888;
+  border-radius: 8px;
 }
 
 #social-medias * {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .bi {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 iframe {
-    margin-top: 2rem;
-    width: 80%;
-    height: 20rem;
+  margin-top: 2rem;
+  width: 82vw;
+  height: 27rem;
 }
 
 /* RESPONSIVIDADE */
 
 @media (max-width: 1070px) {
-    body {
-        overflow-x: hidden;
-        width: 100vw;
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  header {
+    margin: auto;
+    padding: 0;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header img {
+   width: 60vw;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 2rem;
+  }
+
+  #banner1 {
+    margin-top: 4rem;
+    width: 100vw;
+  }
+
+  #about-us-container {
+    display: none;
+  }
+
+  #about-us-container-list {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  #about-us-container-list li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  #about-us {
+    width: 90vw;
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+  }
+
+  #about-us * {
+    text-align: start;
+    list-style: none;
+  }
+
+  #about-us h1 {
+    text-align: center;
+  }
+
+  li + strong {
+    margin: 0;
+    text-align: justify;
+  }
+
+  #button-container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #button-container * {
+    margin: auto;
+    text-align: center;
+  }
+
+  #box-border {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  #box-border * {
+    font-size: 1rem;
+  }
+
+  #what-we-do {
+    width: 90vw;
+  }
+
+  #what-we-do-container {
+    text-align: start;
+    flex-direction: column;
+  }
+
+  #what-we-do-container img {
+    margin: auto;
+    padding-top: 2.5rem;
+    width: 100vw;
+    height: auto;
+  }
+
+  #what-we-do-container ul {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    list-style: none;
+  }
+  
+  #what-we-do-container ul * {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  #stacks {
+    width: 100vw;
+  }
+
+  #techs-table {
+    display: none;
+  }
+
+  #techs-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  #techs-list li {
+    width: 45%;
+    min-width: 250px;
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #5c5c5c;
+    border-radius: 8px;
+    max-width: 18rem;
+    justify-content: center;
+    align-self: center;
+    -webkit-box-shadow: 0px 0px 2px 2px #959595;
+    -moz-box-shadow: 0px 0px 2px 2px #959595;
+    box-shadow: 0px 0px 2px 2px #959595;
+  }
+
+  #techs-list *:hover {
+    background-color: #f16522;
+    color: #ffffff;
+  }
+
+  #stacks p {
+    text-align: justify;
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 0 1rem;
+  }
+
+  #benefits {
+    width: 100vw;
+  }
+
+  #benefits ul {
+    margin: 0;
+    padding: 0 1rem 0 2rem;
+    list-style: square;
+  }
+
+  #contact-container {
+    
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 0 1rem;
+    flex-direction: column;
+  }
+
+  #contact-email input {
+    width: 80vw;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #888888;
+    border-radius: 8px;
+  }
+
+  iframe {
+    width: 100vw;
+    margin: 2rem 0;
+    padding: 0;
+  }
+}
+
+/* Animation */
+
+#aa {
+    animation: fromLeft .6s backwards;
+}
+
+@keyframes fromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
     }
-
-    header nav {
-        display: none;
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
+}
 
-    h1 {
-        font-size: 2rem;
-        margin: 0 2.5rem 1rem 5rem;
+@keyframes fromRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
     }
-
-    #banner1 {
-        margin-top: 5rem;
-        width: 100%;
-    }
-
-    #about-us-container {
-        display: none;
-    }
-
-    #about-us-container-list {
-        display: block;
-        margin: auto;
-        justify-content: center;
-        text-align: justify;
-    }
-
-    #about-us-container-list li {
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-
-        justify-content: center;
-        text-align: justify;
-    }
-
-    #about-us * {
-        text-align: start;
-        margin: 0 1rem 0 1rem;
-        list-style: none;
-    }
-
-    #about-us h1 {
-        text-align: center;
-    }
-
-    li + strong {
-        margin: 0;
-        text-align: justify;
-
-        /* espaçamento das tags semanticas STRONG */
-    }
-
-    #button-container {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #button-container * {
-        margin: 1rem auto 1rem auto;
-        text-align: center;
-    }
-
-    #box-border {
-        margin-bottom: 1rem;
-    }
-
-    #what-we-do-container {
-        text-align: start;
-        flex-direction: column;
-    }
-
-    #what-we-do-container img {
-        width: 80vh;
-        margin: auto;
-        padding-top: 2.5rem;
-        max-width: 80vw;
-        height: auto;
-        max-height: 80vh;
-    }
-
-    #techs-table {
-        display: none;
-    }
-
-    #techs-list {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-    }
-
-    #techs-list * {
-        width: 45%;
-        min-width: 270px;
-        padding: 0.5rem;
-        margin: auto;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        border: 1px solid #5c5c5c;
-        border-radius: 8px;
-        max-width: 18rem;
-        justify-content: center;
-        align-self: center;
-    }
-
-    #techs-list *:hover {
-        background-color: #f16522;
-        color: #ffffff;
-    }
-
-    #stacks p {
-        text-align: justify;
-    }
-
-    #benefits ul {
-        margin: 0 2rem 0 2rem;
-        list-style: square;
-    }
-
-    #contact-container {
-        margin: 0 4rem 0 4rem;
-        flex-direction: column;
-    }
-
-    #contact-email input {
-        width: 80vw;
-        height: 3rem;
-        margin-bottom: 0.5rem;
-        border: 1px solid #888888;
-        border-radius: 8px;
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
